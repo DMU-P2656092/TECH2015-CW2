@@ -1,0 +1,211 @@
+/* Sets styles to be applied to alements. */
+/* Resets the browser default to zero for personal chnages to be made to elements. */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Image for the baground and the size paramiters of the page. */
+body{
+    background-image: url(Image/stars.jpg);
+    height: 100vh;
+    background-position: center;
+}
+
+/* Sets background colour for site header. */
+nav{
+    background: black;
+    height: 150px;
+    width: 100%;
+}
+/* Text syle for site name. */
+label.name{
+    color: yellow;
+    font-size: 26px;
+    font-family: Star Jedi;
+    line-height: 80px;
+    padding-left: 400px;
+}
+/* Positions page links. */
+nav ul{
+    float: left;
+    margin-left: 20px;
+}
+/* Sets layout for page links to be side by side. */
+nav ul li{
+    display: inline-block;
+    font-family: Star Jedi;
+    line-height: 80px;
+    margin: 0 5px;
+}
+/* Text syle for page links. */
+nav ul li a{
+    color: yellow;
+    font-size: 15px;
+}
+
+/* Hover action changes background colour of links. */
+a:hover{
+    background: rgb(55, 55, 55);
+    transition: .5s;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+/* Layout settings for corner image. */
+.logo{
+    padding: 10px;
+    height: 80px;
+    float: right;
+}
+/* Sets the size for container to be double browser default. */
+.container{
+    padding: 2rem;
+}
+/* Style for each cell to match site colour scheme. */
+.cell{
+    background-color: black;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    padding: 1rem;
+}
+/* Orders layout to be columns with gap inbetween each. */
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* Collumns fill space across page. */
+.flex > .cell{
+    flex-grow: 1;
+}
+/*Styling for homepage message. */
+.message{
+    font-family: Star Jedi;
+    text-decoration: underline;
+    color: yellow;
+    font-size: 22px;
+    text-align: center;
+}
+/* Styling for homepage main body text. */
+p{
+    color: yellow;
+    font-family: Conthrax;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Setting audio to the right side of the cell and lower the height. */
+.audio{
+    float: right;
+    height: 30px;
+}
+/* Positioning for image in centre of page with equal space either size.n */
+.moviecover{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+
+/* Positioning and style of hyperlink button to start of story. */
+button{
+    background-color: black;
+    color: yellow;
+    font-family: Conthrax;
+    font-size: 16px;
+    border: 5px solid yellow;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for the footer of the website. */
+.footer{
+    padding: 5px;
+    text-align: center;
+    font-family: Conthrax;
+    font-size: 14px;
+    color: yellow;
+    opacity: 75%;
+}
+/* Styling for the heading of the page. */
+.chap-head{
+    font-family: Star Jedi;
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Sets the slideshow to relavtive so it can be moved if necessary. */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The width and heigh of the slideshow to ensure all images are the same size. */
+.mySlides {
+  display: none;
+  width: 1000px;
+  height: 700px;
+}
+/* Styling for the arrows that control the display of the slideshow. */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: yellow;
+  background-color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Positioning for the forward arrow to be on the right right of the slideshow. */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* When hovering over the arrows the background colour chnages to grey. */
+.prev:hover,
+.next:hover {
+  background-color: rgb(55, 55, 55);
+}
+/* Fade animation between images of slideshow. */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+/* Controls the amount of fade added when switching images. */
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Styling and positioning for slideshow instructions. */
+.caption{
+  font-family: Conthrax;
+  color: yellow;
+  text-align: center;
+  font-size: 13px;
+
+}
+/* Styling for the sub-headings present on each page. */
+.page-sub-head{
+  font-family: Conthrax;
+  color: yellow;
+  font-size: 18px;
+}
+
+

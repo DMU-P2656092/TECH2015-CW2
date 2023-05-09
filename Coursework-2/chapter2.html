@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to css stylesheet. -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Good News</title>
+</head>
+<body>
+       <!-- Link for javascript to be applied. -->
+       <script src="javascript.js"></script>
+       <!-- Nav tag used to segment the head of the page from main content. -->
+       <nav>
+           <label class="name">Star Wars Revenge of the Sith</label>
+           <!-- Studio logo with hyperlink to website. -->
+           <a href="https://www.lucasfilm.com/"><img class="logo" src="Image/logo.png" alt="Studio Logo"></a>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+           </ul>
+           <br>
+           <!-- List of film chapters for ease of navigation. -->
+            <ul>
+                <li><a href="chapter1.html">1. Rescuing the Chancellor</a></li>
+                <li><a href="chapter2.html">2. Good News</a></li>
+                <li><a href="chapter3.html">3. Confronting Grevious</a></li>
+                <li><a href="chapter4.html">4. Sidious Revealed</a></li>
+                <li><a href="chapter5.html">5. order 66</a></li>
+                <li><a href="chapter6.html">6. Battle of the Heroes</a></li>
+                <li><a href="chapter7.html">7. Birth and Rebirth</a></li>
+            </ul>
+       </nav>
+        <!-- Main tag shows the content of the page. -->
+       <!-- Keeps the content organised and away from nav and footer elements. -->
+       <main>
+         <!-- Container for css flexbox to be used on the page. -->
+         <div class="container flex">
+            <!-- Heading of the page relating to the story. -->
+            <h2 class="chap-head">Good News</h2>
+            <div class="cell">
+                <!-- Container to hold the slideshow. -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <!-- Images to be used as part of the slideshow with style settings for images to be all equal sizes. -->
+                      <img src="Image/Return.png" style="width:1000px; height:700px;"> 
+                    </div>
+                    <div class="mySlides">
+                      <img src="Image/pregnant.jpeg" style="width:1000px;height:700px;">
+                    </div>
+                    <!-- Forwards and backwards buttons for the slideshow. -->
+                    <!--Unicode used to create the arrow for the buttons. -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <!-- Caption below slideshow telling viewers to interact with slideshow for it to display due to complication with making the slideshow automatically displayed. -->
+                  <p class="caption">Interact with slideshow arrows to display images.</p>
+            </div>
+            <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Chancellor's Return</h2>
+                <!-- br tage used for clear paragraphs within the cell. -->
+                <br>
+                <p>Following the crash landing of the Separatist Command Ship on the planet surface of Coruscant, both the Jedi and the Chancellor make their way
+                    to the Galactic Senate building. When they arrive, the key members of the Jedi Council are waiting, along with some members of the Galactic Senate.
+                    Jedi Grand Master Windu and Yoda are the first to approach the Chancellor and ask about his current well-being.</p>
+                <br>
+                <p>The chancellor describes the recent events of how Count Dooku was defeated thanks to his Jedi rescuers and that General Grievous has once again
+                    escaped capture. Master Windu reassures the Chancellor that nothing else could be done. Going on to say that running and hiding is what Grievous always does,
+                    claiming, "he's a <em>coward</em>".</p>
+                    <!-- em tag used to make text italic. -->
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Return.mp3" type="audio/mp3">
+                        <source src="Audio/Return.wav" type="audio/wav">
+            </div>
+                <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">A Surprise Secret</h2>
+                <!-- br tag to set clear paragraphs within the cell. -->
+                <br>
+                <p>After the Chancellor, Master Windu and Yoda, followed by the other Senators, have continued on into the Senate Chambers, Anakin speaks with Bail Organa,
+                    the senator of Alderaan. They talk about the war efforts and how much has changed since the first day of conflict on Geonosis all those years ago, as well
+                    as what it will take for the war to end. Anakin explains that there will never be an end to the war until Grievous is, "spare parts".</p>
+                <br>
+                <p>Seeing his wife, Senator Padme Amidala of Naboo, standing hidden behind one of the entrance pillars, he apologises to Senator Organa and makes his way over
+                    to his wife. They embrace tightly. She explains that she had heard stories that he had been killed whilst away on missions, but Anakin promptly calms her and
+                    reassures her that he's alright. However, Anakin notices that his wife is not herself. He realises that she's trembling and asks her what is wrong. Padme pauses,
+                    lets out a sigh, and informs him that she is pregnant and that he is going to be a father.</p> 
+                <br>
+                <p> Padme explains that she is worried about what they are going to do. If the Jedi Council found out about their relationship, Anakin would be banished from the Jedi Order,
+                    and her reputation as a senator would be tarnished. Before she continues to spiral and panic, Anakin takes hold of Padme by her shoulders and shows happiness about the pregnancy
+                    and comforts her, affirming that their child is a blessing.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/News.mp3" type="audio/mp3">
+                        <source src="Audio/News.wav" type="audio/wav">
+            </div>
+                <br>
+                </div>            
+                <div class="cell">
+                    <!-- Footer with name of site and pretend copyright for authenticity. -->
+                    <p class="footer">Star Wars Revenge of the Sith Online Story</p>
+                    <br>
+                    <p class="footer">Copyright 2023 ©</p>
+                </div>
+            </div>
+           </main>
+       </main>
+</body>
+</html>

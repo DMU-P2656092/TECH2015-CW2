@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to css stylesheet. -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Order 66</title>
+</head>
+<body>
+       <!-- Link for javascript to be applied. -->
+       <script src="javascript.js"></script>
+
+       <!-- Head of the page with site name and page links. -->
+       <nav>
+           <label class="name">Star Wars Revenge of the Sith</label>
+           <!-- Studio logo with hyperlink to website. -->
+           <a href="https://www.lucasfilm.com/"><img class="logo" src="Image/logo.png" alt="Studio Logo"></a>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+           </ul>
+           <br>
+           <!-- List of film chapters for ease of navigation. -->
+           <!-- Some lowercase letters had to be used as the font did not include uppercase variations. -->
+            <ul>
+                <li><a href="chapter1.html">1. Rescuing the Chancellor</a></li>
+                <li><a href="chapter2.html">2. Good News</a></li>
+                <li><a href="chapter3.html">3. Confronting Grevious</a></li>
+                <li><a href="chapter4.html">4. Sidious Revealed</a></li>
+                <li><a href="chapter5.html">5. order 66</a></li>
+                <li><a href="chapter6.html">6. Battle of the Heroes</a></li>
+                <li><a href="chapter7.html">7. Birth and Rebirth</a></li>
+            </ul>
+       </nav>
+        <!-- Main tag shows the content of the page. -->
+       <!-- Keeps the content organised and away from nav and footer elements. -->
+       <main>
+        <div class="container flex">
+            <!-- Heading of the page relating to the story. -->
+            <h2 class="chap-head">order 66</h2>
+            <div class="cell">
+                <!-- Container to hold the slideshow. -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <!-- Images to be used as part of the slideshow with style settings for images to be all equal sizes. -->
+                      <img src="Image/Confront.png" style="width:1000px; height:700px;"> 
+                    </div>
+                    <div class="mySlides">
+                        <img src="Image/Fight.png" style="width:1000px;height:700px;">
+                      </div>
+                    <div class="mySlides">
+                      <img src="Image/March.jpeg" style="width:1000px;height:700px;">
+                    </div>
+                    <!-- Forwards and backwards buttons for the slideshow. -->
+                    <!--Unicode used to create the arrow for the buttons. -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <!-- Caption below slideshow telling viewers to interact with slideshow for it to display due to complication with making the slideshow automatically displayed. -->
+                  <p class="caption">Interact with slideshow arrows to display images.</p>
+            </div>
+            <br>
+            <div class="cell">
+                <!-- Sub-heading for section of text. -->
+                <h2 class="page-sub-head">Confrontation</h2>
+                <!-- br tag to set clear paragraphs within the cell. -->
+                <br>
+                <p>With the information provided by Anakin Skywalker, Master Windu, along with Kit Fisto, Agen Kolar, and Saesee Tiin, went to confront the Chancellor
+                    about him being the Sith lord. With their lightsabers drawn, they demand Palpatine surrender to be arrested. However, Palpatine stands from his chair
+                    and draws his lightsaber. Using the force to help his withered body, he lunges at the Jedi and kills all but Master Windu in one swift movement. The pair
+                    clash lightsabers and make advances on each other. Neither side can get a hit.</p>
+                <br>
+                <p>Eventually, the fight leads back to Palpatine's office. But this time, Master Windu has the advantage. Palpatine is pushed to the floor, and his lightsaber
+                    is thrown out of the window. Anakin comes running into the office before Windu gives the killing blow. Palpatine gives it one last chance to manipulate Anakin,
+                    saying that the Jedi have taken over the Senate and the act of trying to arrest him is proof.</p>
+                <br>
+                <p>As Master Windu is about to kill Palpatine, Anakin claims that he needs Palpatine alive to save his wife. Windu ignores this remark and continues to attack.
+                    In a split-second decision, Anakin draws his lightsaber and attacks Windu, severing his hand and making his lightsaber fly out the window. With the chance to 
+                    attack present again, Palpatine unleashes force lightning on Master Windu and kills him.</p>
+                <br>
+                <p>Anakin is distraught over what he has done and drops to his knees in shock. Palpatine, now regaining his strength, gets to his feet and coerces Anakin to embrace
+                    the dark side of the force. He gives Anakin a new name. Darth Vader. Anakin is given a new mission, to exterminate the rest of the Jedi order within the temple as
+                    Palpatine sends out the secret code to all clones across the galaxy. The code "<em>Execute Order 66</em>" is given to all clones to turn against the Jedi in an effort
+                    to wipe them out. </p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Order-66.mp3" type="audio/mp3">
+                        <source src="Audio/Order-66.wav" type="audio/wav">
+            </div>
+                <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">The Beginning of the End</h2>
+                <!-- br tag to set clear paragraphs within the cell. -->
+                <br>
+                <p>The new Sith Lord, Darth Vader, leads the attack on the Jedi Temple. The 501st Legion followed him into the Temple to help exterminate the Jedi Order. No one is spared.
+                    Those in the archives, the Jedi Knights from missions, and even the Jedi Younglings are slaughtered at Darth Vader's hands. </p>
+                <br>
+                <p>Across the galaxy, clones turn against their masters. Jedi such as Ki' Aldi Mundi, Aylaa Secura, and Plo Koon are all slaughtered by their own company of clones.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Slaughter.mp3" type="audio/mp3">
+                        <source src="Audio/Slaughter.wav" type="audio/wav">
+            </div>
+                <br>
+                </div>            
+                <div class="cell">
+                    <!-- Footer with name of site and prentend copyright for authenticity. -->
+                    <p class="footer">Star Wars Revenge of the Sith Online Story</p>
+                    <br>
+                    <p class="footer">Copyright 2023 ©</p>
+                </div>
+            </div>
+           </main>   
+</body>
+</html>

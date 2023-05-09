@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to css stylesheet. -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Battle of the Heroes</title>
+</head>
+<body>
+       <!-- Link for javascript to be applied. -->
+       <script src="javascript.js"></script>
+
+       <!-- Head of the page with site name and page links. -->
+       <nav>
+           <label class="name">Star Wars Revenge of the Sith</label>
+           <!-- Studio logo with hyperlink to website. -->
+           <a href="https://www.lucasfilm.com/"><img class="logo" src="Image/logo.png" alt="Studio Logo"></a>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+           </ul>
+           <br>
+           <!-- List of film chapters for ease of navigation. -->
+           <!-- Some lowercase letters had to be used as the font did not include uppercase variations. -->
+            <ul>
+                <li><a href="chapter1.html">1. Rescuing the Chancellor</a></li>
+                <li><a href="chapter2.html">2. Good News</a></li>
+                <li><a href="chapter3.html">3. Confronting Grevious</a></li>
+                <li><a href="chapter4.html">4. Sidious Revealed</a></li>
+                <li><a href="chapter5.html">5. order 66</a></li>
+                <li><a href="chapter6.html">6. Battle of the Heroes</a></li>
+                <li><a href="chapter7.html">7. Birth and Rebirth</a></li>
+            </ul>
+       </nav>
+        <!-- Main tag shows the content of the page. -->
+       <!-- Keeps the content organised and away from nav and footer elements. -->
+       <main>
+        <div class="container flex">
+            <!-- Heading of the page relating to the story. -->
+            <h2 class="chap-head">Battle of the Heroes</h2>
+            <div class="cell">
+                <!-- Container to hold the slideshow. -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <!-- Images to be used as part of the slideshow with style settings for images to be all equal sizes. -->
+                      <img src="Image/Jedi-Sith.png" style="width:1000px; height:700px;"> 
+                    </div>
+                    <div class="mySlides">
+                        <img src="Image/Obi-Anakin.png" style="width:1000px;height:700px;">
+                      </div>
+                    <!-- Forwards and backwards buttons for the slideshow. -->
+                    <!--Unicode used to create the arrow for the buttons. -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <!-- Caption below slideshow telling viewers to interact with slideshow for it to display due to complication with making the slideshow automatically displayed. -->
+                  <p class="caption">Interact with slideshow arrows to display images.</p>
+            </div>
+            <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Lord vs Master</h2>
+                <!-- br tag to set clear paragraphs within the cell. -->
+                <br>
+                <p>After fighting his way through the Jedi Temple, Grand Master Yoda finally made his way to the Sith Lord Palpatine's office. A fight ensues between the two.
+                    Jumping backwards and forwards, both sides have extreme power. The fight moves from the main office to the Senate chambers contained above the office. It
+                    is clear that Palpatine is the strongest, but Yoda is much faster.</p>
+                <br>
+                <p>As a way of attack, Palpatine uses the force to throw viewing platforms at Yoda. With his extreme agility, Grand Master Yoda dodges the attacks. However, as time
+                    continues, Yoda becomes tired and slow. Palpatine uses this and gives a full power force lightning against Yoda. He is able to repel the lightning, but the large exertion
+                    of energy knocks him down to the chamber floor. Injured and seeing his defeat, Yoda flees and goes into hiding.
+                </p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Yoda-Palp.mp3" type="audio/mp3">
+                        <source src="Audio/Yoda-Palp.wav" type="audio/wav">
+            </div>
+                <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Brothers</h2>
+                <!-- br tag to set clear paragraphs within each cell. -->
+                <br>
+                <p>Darth Vader is sent, by Palpatine, to end what remains of the Separatist army. He travels to the planet of Mustafar and begins to kill everyone present. Some of them begged
+                    for mercy, but they were killed anyway. Darth Vader's eyes glow yellow as he is filled with the dark side of the force. Anger becomes him, and he feels no sympathy or regret
+                    for what he is doing.</p>
+                <br>
+                <p>Soon after, Obi-Wan arrives, hidden within Padme's shuttle. Padme tries to convince Vader to forget about his mission and tries to bring him home to be there for his unborn child.
+                    But when Vader sees Obi-Wan emerging from the shuttle, he believes Padme brought him along to kill him, even though she had no knowledge of Obi-Wan being on the ship.</p>
+                <br>
+                <p>Obi-Wan attempts to talk some sense into his old padawan. Stating that Palpatine, the Emperor of the new Galactic Empire, doesn't care for Vader and only sees him as a means to an end.
+                    This angers Vader, and warns Obi-Wan that "if you're not with me, then you're my <em>enemy</em>". The fight commences as Vader lunges at Obi-Wan.</p>
+                <br>
+                <p>The duel is long and tense. Both sides are equal in strength. One is the teacher, and the other is the student with the new strength of the dark side of the force. Whilst one is fighting to
+                    protect himself and save his friend, the other is ready to kill what he believes to be the last remaining Jedi ready for his new Empire. Eventually reaching the lava rivers of Mustafar, the pair
+                    balance on top of labour droids as they float down the river, making strikes as they go. Vader shouts, "This is the end for you, my <em>master</em>", before Obi-Wan backflips onto a portion of land adjacent
+                    to the river. Vader makes the leap to the portion of land, but Obi-Wan catches him with his lightsaber whilst in mid-air. The result is Vader having his legs and one arm cut off as he burns from the heat
+                    of the lava river. Obi-Wan leaves Vader there as his body becomes set on fire, believing his old friend will die.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Obi-Vader.mp3" type="audio/mp3">
+                        <source src="Audio/Obi-Vader.wav" type="audio/wav">
+            </div>
+                <br>
+                </div>            
+                <div class="cell">
+                    <!-- Footer with name of site and pretend copyright for authenticity. -->
+                    <p class="footer">Star Wars Revenge of the Sith Online Story</p>
+                    <br>
+                    <p class="footer">Copyright 2023 ©</p>
+                </div>
+            </div>
+           </main>   
+</body>
+</html>

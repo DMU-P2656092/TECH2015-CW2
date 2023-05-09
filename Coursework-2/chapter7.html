@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to css stylesheet. -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Birth and Rebirth</title>
+</head>
+<body>
+       <!-- Link for javascript to be applied. -->
+       <script src="javascript.js"></script>
+
+       <!-- Head of the page with site name and page links. -->
+       <nav>
+           <label class="name">Star Wars Revenge of the Sith</label>
+           <!-- Studio logo with hyperlink to website. -->
+           <a href="https://www.lucasfilm.com/"><img class="logo" src="Image/logo.png" alt="Studio Logo"></a>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+           </ul>
+           <br>
+           <!-- List of film chapters for ease of navigation. -->
+           <!-- Some lowercase letters had to be used as the font did not include uppercase variations. -->
+            <ul>
+                <li><a href="chapter1.html">1. Rescuing the Chancellor</a></li>
+                <li><a href="chapter2.html">2. Good News</a></li>
+                <li><a href="chapter3.html">3. Confronting Grevious</a></li>
+                <li><a href="chapter4.html">4. Sidious Revealed</a></li>
+                <li><a href="chapter5.html">5. order 66</a></li>
+                <li><a href="chapter6.html">6. Battle of the Heroes</a></li>
+                <li><a href="chapter7.html">7. Birth and Rebirth</a></li>
+            </ul>
+       </nav>
+        <!-- Main tag shows the content of the page. -->
+       <!-- Keeps the content organised and away from nav and footer elements. -->
+       <main>
+        <div class="container flex">
+            <!-- Heading of the page relating to the story. -->
+            <h2 class="chap-head">Birth and Rebirth</h2>
+            <div class="cell">
+                <!-- Container to hold the slideshow. -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <!-- Images to be used as part of the slideshow with style settings for images to be all equal sizes. -->
+                      <img src="Image/Birth.png" style="width:1000px; height:700px;"> 
+                    </div>
+                    <div class="mySlides">
+                        <img src="Image/Vader.png" style="width:1000px;height:700px;">
+                      </div>
+                    <!-- Forwards and backwards buttons for the slideshow. -->
+                    <!--Unicode used to create the arrow for the buttons. -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <!-- Caption below slideshow telling viewers to interact with slideshow for it to display due to complication with making the slideshow automatically displayed. -->
+                  <p class="caption">Interact with slideshow arrows to display images.</p>
+            </div>
+            <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Into Hiding</h2>
+                <!-- br tag sets clear paragraphs within the cell. -->
+                <br>
+                <p>Bringing Padme aboard her ship, Obi-Wan can see that she is in a bad condition. He, along with Senator Organa and Master Yoda, brings her to the asteroid
+                    Polis Massa for her to give birth. To everyone's surprise, Padme is not only carrying twins, but she is dying. The medical droid helps Padme give birth to her baby
+                    boy and baby girl. She names them Luke and Leia. In her last dying breath, Padme asks Obi-Wan if Anakin is alright and tells him that, despite his recent actions,
+                    she knows that there is good still within him.</p>
+                <br>
+                <p>To help hide the children from both Darth Vader and the Emperor, it is decided that they are separated. Senator Organa says that he will take Leia, as he and his wife
+                    have always dreamed of having a baby girl of their own. Obi-Wan, on the other hand, agrees to take Luke back to Tatooine, the planet Anakin was born, to be with his family.
+                    He says that he will go into hiding on the planet and watch over him to keep him safe from the Empire.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Into-Hiding.mp3" type="audio/mp3">
+                        <source src="Audio/Into-Hiding.wav" type="audio/wav">
+            </div>
+                <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Final Transformation</h2>
+                <!-- br tag to set out clear paragarphs for the cell. -->
+                <br>
+                <p>Time has passed since Obi-Wan left the planet Mustafar, the Emperor can sense that something is wrong and that Darth Vader is in danger.
+                    He travels to Mustafar along with some Coruscant guards to look for him. They find him by the river, where Obi-Wan left him, but to the Emperor's 
+                    surprise, Darth Vader is still alive. The guards rush to find a gurney. Once Darth Vader is aboard the Imperial Shuttle, the Emperor brings
+                    him back to Coruscant for surgery.</p>
+                <br>
+                <p>The process of saving Darth Vader is long and extremely painful, as Vader screams in agony the entire time. Prosthetics are added, and some body
+                    parts are removed due to extensive burn damage. Finally, Vader's helmet is placed on his head, along with his built-in breathing apparatus. When he
+                    is able to stand, Darth Vader turns to Emperor Palpatine and asks, "Where is <em>Padme</em>? Is she safe? Is she alright?" The Emperor informs him
+                    that she died and that, in his anger, Vader must have killed her.</p>
+                <br>
+                <p>The story ends with a newly built Darth Vader, recovered from surgery, standing next to his new master. They are aboard the new Imperial-class Star 
+                    Destroyer as they watch the construction of the Death Star super-weapon.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/End.mp3" type="audio/mp3">
+                        <source src="Audio/End.wav" type="audio/wav">
+            </div>
+                <br>
+                </div>            
+                <div class="cell">
+                    <!-- Footer with name of site and pretend copyright for authenticity. -->
+                    <p class="footer">Star Wars Revenge of the Sith Online Story</p>
+                    <br>
+                    <p class="footer">Copyright 2023 ©</p>
+                </div>
+            </div>
+           </main>   
+   
+</body>
+</html>

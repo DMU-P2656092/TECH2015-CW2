@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to css stylesheet. -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Sideous Revealed</title>
+</head>
+<body>
+       <!-- Link for javascript to be applied. -->
+       <script src="javascript.js"></script>
+       <!-- Head of the page with site name and page links. -->
+       <nav>
+           <label class="name">Star Wars Revenge of the Sith</label>
+           <!-- Studio logo with hyperlink to website. -->
+           <a href="https://www.lucasfilm.com/"><img class="logo" src="Image/logo.png" alt="Studio Logo"></a>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+           </ul>
+           <br>
+           <!-- List of film chapters for ease of navigation. -->
+            <ul>
+                <li><a href="chapter1.html">1. Rescuing the Chancellor</a></li>
+                <li><a href="chapter2.html">2. Good News</a></li>
+                <li><a href="chapter3.html">3. Confronting Grevious</a></li>
+                <li><a href="chapter4.html">4. Sidious Revealed</a></li>
+                <li><a href="chapter5.html">5. order 66</a></li>
+                <li><a href="chapter6.html">6. Battle of the Heroes</a></li>
+                <li><a href="chapter7.html">7. Birth and Rebirth</a></li>
+            </ul>
+       </nav>
+        <!-- Main tag shows the content of the page. -->
+       <!-- Keeps the content organised and away from nav and footer elements. -->
+       <main>
+        <div class="container flex">
+            <!-- Heading of the page relating to the story. -->
+            <h2 class="chap-head">Sideous Revealed</h2>
+            <div class="cell">
+                <!-- Container to hold the slideshow. -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <!-- Images to be used as part of the slideshow with style settings for images to be all equal sizes. -->
+                      <img src="Image/Sidious.jpeg" style="width:1000px; height:700px;"> 
+                    </div>
+                    <div class="mySlides">
+                      <img src="Image/Talk.jpeg" style="width:1000px;height:700px;">
+                    </div>
+                    <!-- Forwards and backwards buttons for the slideshow. -->
+                    <!--Unicode used to create the arrow for the buttons. -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <!-- Caption below slideshow telling viewers to interact with slideshow for it to display due to complication with making the slideshow automatically displayed. -->
+                  <p class="caption">Interact with slideshow arrows to display images.</p>
+            </div>
+            <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">The Hidden Darkness</h2>
+                <!-- br tag to set clear paragraphs within the cell. -->
+                <br>
+                <p>Anakin goes to the Chancellor's office to inform him of the news that Obi-Wan has found General Grievous and has begun the battle.
+                    But as Anakin explains how he should be there with him, given their past of always being together on missions, Chancellor Palpatine begins to
+                    manipulate Anakin. He tells him that the Council doesn't trust Anakin and he has such potential that the Order prevents him from reaching.
+                    Palpatine continues to explain how he can teach Anakin the ways of the force and that his master before him taught him everything about
+                    the light and the dark side of the force.</p>
+                <br>
+                <p>Now hearing that Palpatine knows how to use the dark side of the force, Anakin changes his tone from upset to concerned. He is intrigued as to why
+                    Palpatine learned both sides of the force. But when Chancellor Palpatine claims that only through him and his teachings he could save his wife Padme
+                    from death from childbirth, Anakin figures out that Palpatine is the Sith Lord that the Jedi had been looking for. The one who is behind the war
+                    and the leader of the Sith Order.</p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Palpatine.mp3" type="audio/mp3">
+                        <source src="Audio/Palpatine.wav" type="audio/wav">
+            </div>
+                <br>
+            <div class="cell">
+                <!-- Sub-heading for each section of text. -->
+                <h2 class="page-sub-head">Next Steps</h2>
+                <!-- br tage sets clear paragraphs within the cell. -->
+                <br>
+                <p>After making the discovery of the Sith Lord's identity, Anakin tells Palpatine that he is going to turn him into the Jedi Order and have him arrested. He promptly leaves Palpatine's
+                    office and finds Master Windu. He sees that Master Windu is leaving the Jedi Temple and finds out that Grievous has been killed. Master Windu believes that the war is now over,
+                    but when Anakin informs him that this may not be the case, Windu is intrigued. Anakin continues on to tell him about his conversation with Chancellor Palpatine and how he knows
+                    the ways of the force and has been trained to use the dark side.</p>
+                <br>
+                <p>Master Windu now believes that Palpatine is the Sith Lord using the concerns he previously had and with the new evidence from Anakin. Being concerned by Anakin's state of mind and 
+                    relationship with the Chancellor, he warns Anakin to stay away and allow the Jedi Council to sort this matter. Master Windu attempts to reassure Anakin that he trusts him and that 
+                    he must wait in the council chambers until his return.</p> 
+                <br>
+                <p></p>
+                <br>
+                <!-- Audio files as dictators for text. -->
+                <!-- Two file types provided in case one is not supported by the browser. -->
+                    <audio class="audio" controls>
+                        <source src="Audio/Windu-Trust.mp3" type="audio/mp3">
+                        <source src="Audio/Windu-Trust.wav" type="audio/wav">
+            </div>
+                <br>
+                </div>            
+                <div class="cell">
+                    <!-- Footer with site name and pretend copyright for authenticity. -->
+                    <p class="footer">Star Wars Revenge of the Sith Online Story</p>
+                    <br>
+                    <p class="footer">Copyright 2023 ©</p>
+                </div>
+            </div>
+       </main>
+</body>
+</html>
